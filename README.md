@@ -22,10 +22,10 @@ The hospital needed to understand:
 ## Dashboard Preview
 
 ### Executive Summary
-![Executive Summary](dashboard/dashboard_page1.png)
+![Executive Summary](dashboard/dashboard_page1_executive.png)
 
 ### Doctor Performance
-![Doctor Performance](dashboard/dashboard_page2.png)
+![Doctor Performance](dashboard/dashboard_page2_doctor.png)
 
 ### Patient Insights
 ![Patient Insights](dashboard/dashboard_page3.png)
@@ -47,7 +47,7 @@ The hospital needed to understand:
 
 ## Entity Relationship Diagram
 The diagram below shows how all 5 tables are connected through foreign keys:
-![ERD Diagram](assets/hospital_erd.png)
+![ERD Diagram](assets/hospital erd.png)
 
 Key Relationships:
 - Patients → Appointments (one patient, many appointments)
