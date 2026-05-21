@@ -22,16 +22,16 @@ The hospital needed to understand:
 ## Dashboard Preview
 
 ### Executive Summary
-![Executive Summary](dashboard/dashboard_page1_executive.png)
+![Executive Summary](dashboard/page1_executive.png)
 
 ### Doctor Performance
-![Doctor Performance](dashboard/dashboard_page2_doctor.png)
+![Doctor Performance](dashboard/page2_doctor.png)
 
 ### Patient Insights
-![Patient Insights](dashboard/dashboard_page3_patient.png)
+![Patient Insights](dashboard/page3_patient.png)
 
 ### Financial Health
-![Financial Health](dashboard/dashboard_page4_finance.png)
+![Financial Health](dashboard/page4_financial.png)
 
 ---
 
@@ -47,7 +47,7 @@ The hospital needed to understand:
 
 ## Entity Relationship Diagram
 The diagram below shows how all 5 tables are connected through foreign keys:
-![ERD Diagram](assets/hospital erd.png)
+![ERD Diagram](assets/hospital_erd.png)
 
 Key Relationships:
 - Patients → Appointments (one patient, many appointments)
@@ -77,30 +77,6 @@ Key Relationships:
 - Foreign Keys & relational design
 
 --- 
-
-## Data Dictionary
-
-| Table        | Column              | Description                              |
-
-|-------------|--------------------|------------------------------------------|
-
-| patients    | patient_id         | Unique patient identifier                |
-
-| patients    | insurance_provider | Patient insurance company                  |
-
-| doctors     | specialization     | Medical specialization area              |
-
-| doctors     | hospital_branch   | Branch where doctor works                |
-
-| appointments| status             | Completed, Cancelled, No-Show, Scheduled |
-
-| billing     | payment_status     | Paid, Failed, Pending                    |
-
-| billing     | payment_method     | Cash, Card, Insurance                    |
-
-| treatments  | cost               | Cost of treatment                        |
-
----
 
 ## Key Business Findings
 
@@ -173,10 +149,10 @@ The hospital shows strong engagement, 40% of patients are Regular visitors and 1
 ## Query Results Preview
 
 ### Doctor Performance Scorecard
-![Doctor Performance](results/doctor_performance_result.png)
+![Doctor Performance](result/doctor_perfoemance_result.png)
 
 ### Monthly Revenue Analysis
-![Monthly Revenue](results/monthly_revenue_result.png)
+![Monthly Revenue](result/monthly_revenue_result.png)
 
 ### Appointment Status Breakdown
 ![Appointment Status](results/appointment_status_result.png)
@@ -201,28 +177,27 @@ The hospital shows strong engagement, 40% of patients are Regular visitors and 1
 ---
 
 ## Project Structure
-hospital-management-sql-analysis/
-│
-├── 01_create_tables.sql
-├── 02_data_cleaning.sql
-├── 03_revenue_analysis.sql
-├── 04_doctor_performance.sql
-├── 05_operational_analysis.sql
-├── 06_patient_analysis.sql
-├── 07_treatment_analysis.sql
-├── 08_views.sql
-│
-├── dashboard/
-│   ├── dashboard_page1.png
-│   ├── dashboard_page2.png
-│   ├── dashboard_page3.png
-│   └── dashboard_page4.png
-│
-├── results/
-│   ├── doctor_performance_result.png
-│   ├── monthly_revenue_result.png
-│   └── appointment_status_result.png
-│
-└── assets/
-    └── hospital_erd.png
+
+- 1_create tables.sql
+- 2_data cleaning.sql
+- 3_revenue analysis.sql
+- 4_doctor performance.sql
+- 5_operational analysis.sql
+- 6_patient analysis.sql
+- 7_treatment analysis.sql
+- 8_Views.sql
+  
+- dashboard/
+  -  dashboard_page1.png
+  -  dashboard_page2.png
+  -  dashboard_page3.png
+  -  dashboard_page4.png
+
+ - results/
+    - doctor_performance_result.png
+    - monthly_revenue_result.png
+    - appointment_status_result.png
+
+  - assets/
+    - hospital_erd.png
 
