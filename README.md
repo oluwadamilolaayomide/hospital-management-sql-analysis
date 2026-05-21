@@ -85,12 +85,19 @@ Key Relationships:
 |-------------|--------------------|------------------------------------------|
 
 | patients    | patient_id         | Unique patient identifier                |
-| patients    | insurance_provider | Patient insurance company                |
+
+| patients    | insurance_provider | Patient insurance company                  |
+
 | doctors     | specialization     | Medical specialization area              |
+
 | doctors     | hospital_branch   | Branch where doctor works                |
+
 | appointments| status             | Completed, Cancelled, No-Show, Scheduled |
+
 | billing     | payment_status     | Paid, Failed, Pending                    |
+
 | billing     | payment_method     | Cash, Card, Insurance                    |
+
 | treatments  | cost               | Cost of treatment                        |
 
 ---
