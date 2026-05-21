@@ -45,7 +45,7 @@ The hospital needed to understand:
 - Doctors (10 records)
 - Appointments (200 records)
 - Treatments (155 records)
-- Billing (200)
+- Billing (200 records)
 
 ---
 
@@ -82,6 +82,30 @@ Key Relationships:
 - Foreign Keys & relational design
 
 --- 
+
+## Data Dictionary
+
+| Table        | Column              | Description                              |
+
+|-------------|--------------------|------------------------------------------|
+
+| patients    | patient_id         | Unique patient identifier                |
+
+| patients    | insurance_provider | Patient insurance company                |
+
+| doctors     | specialization     | Medical specialization area              |
+
+| doctors     | hospital_branch   | Branch where doctor works                |
+
+| appointments| status             | Completed, Cancelled, No-Show, Scheduled |
+
+| billing     | payment_status     | Paid, Failed, Pending                    |
+
+| billing     | payment_method     | Cash, Card, Insurance                    |
+
+| treatments  | cost               | Cost of treatment                        |
+
+---
 
 ## Key Business Findings
 
@@ -141,9 +165,9 @@ The hospital shows strong engagement, 40% of patients are Regular visitors and 1
 ---
 
 ## Recommendations
-1. Urgent billing overhaul 31.47% collection rate is critically below the 80% benchmark
+1. Urgent billing overhaul: 31.47% collection rate is critically below the 80% benchmark
 2. Investigate $193,212 in failed payments immediately
-3. Shift more appointments to Saturdays, 0% no-show rate
+3. Shift more appointments to Saturdays: 0% no-show rate
 4. Implement SMS reminders 24 hours before appointments
 5. Replicate Central Hospital strategy across other branches
 6. Launch patient acquisition programs urgently
@@ -155,7 +179,7 @@ The hospital shows strong engagement, 40% of patients are Regular visitors and 1
 
 ### Doctor Performance Scorecard
 
-![Doctor Performance](result/doctor_perfoemance_result.png)
+![Doctor Performance](result/doctor_performance_result.png)
 
 ### Monthly Revenue Analysis
 
@@ -163,7 +187,7 @@ The hospital shows strong engagement, 40% of patients are Regular visitors and 1
 
 ### Appointment Status Breakdown
 
-![Appointment Status](results/appointment_status_result.png)
+![Appointment Status](result/appointment_status_result.png)
 
 ---
 
@@ -186,14 +210,14 @@ The hospital shows strong engagement, 40% of patients are Regular visitors and 1
 
 ## Project Structure
 
-- 1_create tables.sql
-- 2_data cleaning.sql
-- 3_revenue analysis.sql
-- 4_doctor performance.sql
-- 5_operational analysis.sql
-- 6_patient analysis.sql
-- 7_treatment analysis.sql
-- 8_Views.sql
+- 1_create_tables.sql
+- 2_data_cleaning.sql
+- 3_revenue_analysis.sql
+- 4_doctor_performance.sql
+- 5_operational_analysis.sql
+- 6_patient_analysis.sql
+- 7_treatment_analysis.sql
+- 8_views.sql
   
 - dashboard/
   -  dashboard_page1.png
