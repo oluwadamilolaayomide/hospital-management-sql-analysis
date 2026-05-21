@@ -22,15 +22,19 @@ The hospital needed to understand:
 ## Dashboard Preview
 
 ### Executive Summary
+
 ![Executive Summary](dashboard/page1_executive.png)
 
 ### Doctor Performance
+
 ![Doctor Performance](dashboard/page2_doctor.png)
 
 ### Patient Insights
+
 ![Patient Insights](dashboard/page3_patient.png)
 
 ### Financial Health
+
 ![Financial Health](dashboard/page4_financial.png)
 
 ---
@@ -47,6 +51,7 @@ The hospital needed to understand:
 
 ## Entity Relationship Diagram
 The diagram below shows how all 5 tables are connected through foreign keys:
+
 ![ERD Diagram](assets/hospital_erd.png)
 
 Key Relationships:
@@ -149,12 +154,15 @@ The hospital shows strong engagement, 40% of patients are Regular visitors and 1
 ## Query Results Preview
 
 ### Doctor Performance Scorecard
+
 ![Doctor Performance](result/doctor_perfoemance_result.png)
 
 ### Monthly Revenue Analysis
+
 ![Monthly Revenue](result/monthly_revenue_result.png)
 
 ### Appointment Status Breakdown
+
 ![Appointment Status](results/appointment_status_result.png)
 
 ---
