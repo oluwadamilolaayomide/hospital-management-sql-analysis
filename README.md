@@ -28,10 +28,10 @@ The hospital needed to understand:
 ![Doctor Performance](dashboard/dashboard_page2_doctor.png)
 
 ### Patient Insights
-![Patient Insights](dashboard/dashboard_page3.png)
+![Patient Insights](dashboard/dashboard_page3_patient.png)
 
 ### Financial Health
-![Financial Health](dashboard/dashboard_page4.png)
+![Financial Health](dashboard/dashboard_page4_finance.png)
 
 ---
 
