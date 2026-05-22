@@ -1,4 +1,4 @@
-# Hospital Management Analytics
+# Hospital Management SQL Analysis & Power BI Dashboard
 
 ## Project Overview
 An end-to-end SQL analysis of a hospital management database covering 50 patients, 10 doctors across 3 branches and 12 months of billing data (2023). The goal was to extract actionable business insights that support hospital management decisions and not just 
@@ -156,7 +156,7 @@ Out of 200 scheduled appointments only 46 were completed while 52 were no-shows.
 ### Performance Gap Between Doctors
 Robert Davis in Oncology leads all doctors with a 38% completion rate and $40,166 in revenue. The gap between the top and bottom performing doctors is too significant to be explained by patient volume alone. This points to scheduling inefficiencies, patient management differences or branch level resource issues that need management attention.
 
-### Branch Performance Divide
+### Branch Performance 
 Central Hospital generated $229,039 while Westside Clinic generated $160,179, a $69,000 difference between two branches of the same organization. Patients, doctors and treatments are similar across branches yet results are not. The operating model at Central Hospital is clearly working better and deserves to be studied and replicated.
 
 ### Patient Acquisition Gap
