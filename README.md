@@ -1,4 +1,4 @@
-# Hospital Management SQL Analysis
+# Hospital Management Analytics
 
 ## Project Overview
 An end-to-end SQL analysis of a hospital management database covering 50 patients, 10 doctors across 3 branches and 12 months of billing data (2023). The goal was to extract actionable business insights that support hospital management decisions and not just 
